@@ -50,14 +50,14 @@ This is a backend application for managing a music list.
 
 2- Read: GET an array of musics in http://localhost:4000/playlist. For an array filtered by album GET by passing an album name by params: http://localhost:4000/playlist/:album.
 
-3- Update: send an PUT request with a body to http://localhost:4000/playlist/:id specifying the id of the music to be edited by params. To add a music a favorite status:
+3- Update: send an PUT request with a body to http://localhost:4000/playlist/:id specifying the id of the music to be edited by params. To add a music as a favorite status:
 
 ```bash
   body: {
   "isFavorite": true
 }
 ```
-To remove the favorite status:
+To remove a music as a favorite status:
 
 ```bash
   body: {
