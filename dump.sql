@@ -1,3 +1,5 @@
+CREATE DATABASE songs;
+
 CREATE TABLE playlist(
 	id serial NOT NULL,
 	favorite BOOLEAN,
