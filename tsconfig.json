@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "module": "es6",
+        "baseUrl": ".",
+        "paths": {
+            "joi":["node_modules/joi/dist/joi-browser.min"]
+        }
+    },
+    "ts-node": {
+        "esm": true
+    }
+}
